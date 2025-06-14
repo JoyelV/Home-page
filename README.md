@@ -1,16 +1,16 @@
-🔐 Login System
+🔐 Home Page System
 
 A basic **Node.js-based login system** built using **Express**, **EJS templating**, and **Express-session** for managing user sessions. This project was created for learning and study purposes.
 
 ---
 
-## 📁 Project Structure
+📁 Project Structure
 
 ```
-login_system/
+home_page/
 │
-├── server.js               # HTTP server setup
-├── index.js                # Express Route setup main entry file
+├── server.js               # HTTP server setup using Nodejs
+├── index.js                # Express Route setup 
 ├── public/                 # Static assets (CSS, images, JS)
 │   └── assets/             # Optional asset folder
 ├── package.json            # Project metadata and dependencies
@@ -46,10 +46,10 @@ login_system/
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/login_system.git
+git clone https://github.com/JoyelV/Home-page.git
 
 # Navigate to project directory
-cd login_system
+cd home_page
 
 # Install dependencies
 npm install
