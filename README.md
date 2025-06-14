@@ -1,8 +1,4 @@
-Here's a well-structured **README.md** file for your **Login System** project, tailored for **study purposes**:
-
----
-
-# 🔐 Login System
+🔐 Login System
 
 A basic **Node.js-based login system** built using **Express**, **EJS templating**, and **Express-session** for managing user sessions. This project was created for learning and study purposes.
 
@@ -13,10 +9,8 @@ A basic **Node.js-based login system** built using **Express**, **EJS templating
 ```
 login_system/
 │
-├── server.js               # Main application file
-├── views/
-│   ├── router.js           # Handles route logic
-│   └── base.ejs            # Main EJS template
+├── server.js               # HTTP server setup
+├── index.js                # Express Route setup main entry file
 ├── public/                 # Static assets (CSS, images, JS)
 │   └── assets/             # Optional asset folder
 ├── package.json            # Project metadata and dependencies
